@@ -1,0 +1,187 @@
+body{
+  width: 100%;
+  height: 150vh;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+
+.container::before {
+  content: "";
+  background: url(img/US-en-20220516-popsignuptwoweeks-perspective_alpha_website_medium.jpg) no-repeat center center/cover ;
+  position: absolute;
+  height: 150vh;
+  width: 100%;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.container .form{
+  margin-left: 30%;
+
+
+}
+
+
+.container .form form {
+  background-color: rgba(0, 0, 0, 0.687);
+  position: absolute;
+  width: 430px;
+  height: 85vh;
+  padding: 20px 10px 30px 5px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 6px -7px;
+  margin-top: 90px;
+  border: none;
+  
+}
+
+.container .logo a img {
+  height: 95px;
+  position: absolute;
+  left: 35px;
+}
+
+.form form h1{
+  text-align: left;
+  margin-left: 59px;
+  font-weight: 600;
+  font-family: Arial;
+  margin-top: 45px;
+  
+}
+
+.form form .info input{
+  display: block;
+  text-align: left;
+  height: 7.2vh;
+  width: 315px;
+  margin-left: 59px;
+  background-color: rgba(53, 49, 49, 0.914);
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+
+}
+
+.form form .info input[type='password'] {
+  margin-top: 23px;
+ 
+}
+
+
+.form form .info button{
+  border: none;
+  background-color: #e50914;
+  margin: auto;
+  width: 315px;
+  display: block;
+  border-radius: 5px;
+  padding: 10px 0;
+  font-weight: 900;
+  cursor: pointer;
+  height: 7.2vh;
+  text-align: Center;
+  font-size: 15px;
+  margin-top: 55px;
+  font-family: Arial, Helvetica;
+  
+
+}
+.form form .info button a{
+  color: white;
+  text-decoration: none;
+}
+
+.form form .checkbox {
+  display: flex;
+  padding-left: 50px;
+  font-size: 15px;
+  padding-top: 20px;
+  color: rgba(208, 193, 193, 0.914);
+
+  
+}
+
+.form form .checkbox span {
+  padding-left: 140px;
+}
+
+
+
+.form form .sign p{
+  padding-top: 50px;
+  padding-left: 59px;
+  font-family: Arial, Helvetica;
+  color:  rgba(208, 193, 193, 0.914);
+}
+.form form .sign p a{
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: Arial;
+  
+}
+
+.form form .sign p a:hover{
+  text-decoration: underline;
+  
+}
+
+.form form .last p {
+  padding-left: 32px;
+  color: rgba(208, 193, 193, 0.914);
+}
+
+.foot  {
+  max-width: 100%;
+  margin: 1rem auto;
+  overflow: auto;
+  bottom: 0px;
+  position: absolute;
+  
+  width: 100%;
+  background:  rgba(0, 0, 0, 0.714);
+  
+  
+
+}
+
+.foot,
+.foot a{
+  color: #999999;
+  font-size: 0.9rem;
+  
+  
+}
+
+.foot p{
+  margin-bottom: 1.5rem;
+  margin-left: 120px;
+  font-size: 20px;
+  
+}
+
+.foot .footer {
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+  grid-gap: 2rem;
+  margin-left: 120px;
+  font-size: 15px;
+ 
+
+}
+
+.foot li {
+  line-height: 2.4;
+  list-style: none;
+
+}
+
+
+
+
+
