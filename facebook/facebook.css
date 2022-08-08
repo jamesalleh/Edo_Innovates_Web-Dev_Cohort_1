@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+}
+body{
+  width: 100%;
+  background-color: #f0f2f5;
+  
+}
+
+form{
+  background-color: #fff;
+  position: absolute;
+  width: 380px;
+  height: 300px;
+  padding: 20px 10px 30px 5px;
+  margin: -10vh 800px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 6px -7px;
+}
+
+
+input[type='text'], input[type='password'] {
+  display: block;
+  background-color: #fff;
+  margin: auto;
+  border: 1.5px solid rgba(0,0,0,0.7);
+  opacity: 0.8;
+  width: 274px;
+  height: 4vh;
+  padding: 10px 40px;
+  border-radius: 5px;
+  text-align: left;
+  color: black;
+  font-family: 'Segoe UI';
+  font-size: large;
+  
+  
+  
+}
+
+button{
+  border: none;
+  background-color: #1877f2;
+  color: #fff;
+  margin: auto;
+  width: 350px;
+  display: block;
+  border-radius: 5px;
+  padding: 10px 0;
+  font-weight: bold;
+  cursor: pointer;
+  height: 7.5vh;
+
+}
+
+.f-pws {
+  display: block;
+  width: 200px;
+  margin: auto;
+  color: #1877f2;
+  padding-left: 60px;
+  font-family: 'Segoe UI';
+  font-weight: 400;
+}
+
+.line {
+  border-top: 1px solid #222;
+  opacity: 0.2;
+}
+
+.bnt2 {
+  width: 200px;
+  font-size: 15px;
+  background-color: #44b62d;
+  transition: 0.4s ease-in-out;
+
+}
+
+
+
+.sub-link h2 {
+  width: 350px;
+  position: relative;
+  color: black;
+  font-family: 'Segoe UI', Arial;
+  padding: 160px 849px;
+  font-size: 15px;
+  font-weight: 600;
+
+  
+}
+
+.sub-link h2 a{
+  color: black;
+  font-weight: bolder;
+  font-size: 16px;
+
+}
+.f-container{
+  width: 350px;
+  margin-left: 300px;
+  margin-top: 30vh;
+  font-family: 'Segoe UI',  'sans-serif';
+}
+.f-container img{
+  width: 320px;
+  margin-top: -12vh;
+  margin-left: -140px;
+}
+
+p {
+  font-size: 28px;
+  font-weight: 500;
+  word-spacing: 1px;
+  margin-top: -15vh;
+  margin-left: -163px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.tree{
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 992px) {
+  body{
+    background-color: blue;
+    color: white;
+  }
+  .tree{
+    display: block;
+    justify-content: center;
+    
+  }
+}
+
+@media screen and (max-width: 950px) {
+  body{
+    background-color: olive;
+    color: white;
+  }
+  .tree {
+    flex-direction: column;
+    display: flex;
+    
+}
+}
