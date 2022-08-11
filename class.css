@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Epilogue", sans-serif;
+	background-color: whitesmoke;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.btn-outline-success {
+  color: black;
+}
+.btn-outline-success:hover {
+  background-color: grey;
+  outline: none;
+}
+
+
+
+.row {
+  margin-top: 70px;
+  
+}
+.container-fluid a {
+  margin-right: 15px;
+}
+
+.d-flex a {
+  margin-right: 30px;
+  margin-top: 12px;
+}
+
+.overall {
+  
+	padding: 0 1.5rem;
+	text-align: left;
+  font-size: 34px;
+  
+  
+}
+
+.heading {
+	margin-bottom: 2rem;
+	color: black;
+	font-size: 2em;
+}
+
+.description {
+	margin-bottom: 2rem;
+	font-size: 1rem;
+	color: grey;
+	line-height: 1.5;
+}
+
+
+.header-btn {
+	/* margin-bottom: 4rem; */
+	padding: 1rem 2rem;
+	font-size: 1rem;
+	font-weight: 700;
+	color: whitesmoke;
+	background-color: black;
+	border: 2px solid transparent;
+	border-radius: 13px;
+	cursor: pointer;
+}
+
+.header-btn:hover {
+	color: black;
+	background-color: whitesmoke;
+	border-color: black;
+}
